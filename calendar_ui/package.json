@@ -1,9 +1,7 @@
 {
-	"name": "vue-simple-calendar-sample",
+	"name": "vue-calendar",
 	"version": "5.0.0",
 	"private": false,
-	"description": "Sample app showing off the vue-simple-calendar component",
-	"author": "richardtallent <richard@tallent.us>",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",

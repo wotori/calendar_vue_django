@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 
 def index(request):
-    return HttpResponse('Calendar App')
+    context = {'calendar_data': 'appears_here'}
+    return render(request, 'calendar_api/index.html', context)
